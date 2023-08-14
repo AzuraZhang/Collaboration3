@@ -27,3 +27,20 @@ Children:
       DataType: LocalizedText
       ModellingRule: Optional
       Value: {"LocaleId":"en-US","Text":"Label1"}
+- Name: New_TextBox1
+  Type: ObjectLibraryItem
+  Children:
+  - Name: New_TextBox1
+    Id: g=361e8c963771d7864d5ae3caa91a4b41
+    Supertype: TextBox
+    ReferenceType: HasComponent
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 110.0
