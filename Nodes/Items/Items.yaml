@@ -18,14 +18,14 @@ Children:
   Type: ObjectLibraryItem
   Children:
   - Name: New_TextBox1
-    Id: g=cda67797acb7b71e30822e9673f04cb0
+    Id: g=361e8c963771d7864d5ae3caa91a4b41
     Supertype: TextBox
     ReferenceType: HasComponent
     Children:
     - Name: Text
       Type: BaseDataVariableType
       DataType: LocalizedText
-      Value: {"LocaleId":"en-US","Text":"New_Text"}
+      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
     - Name: Width
       Type: BaseVariableType
       DataType: Size
